@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise Sections</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000; /* Black background color for the title section */
+    color: #fff; /* White text color */
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 0 0 60%; /* Title takes up 60% */
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    flex: 0 0 40%; /* Subtitle takes up 40% */
+    text-align: center;
+  }
+
+  .exercise-section {
+    display: flex;
+    align-items: stretch; /* Make both sections the same height */
+    border-bottom: 2px solid #fff; /* Add a border between sections */
+    padding: 0; /* Remove padding */
+    text-align: center;
+    margin-bottom: -2px; /* Remove space between exercise sections */
+  }
+
+  .exercise-info {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+
+  .exercise-info-odd {
+    background-color: #ff0000; /* Red background color for odd sections */
+    flex: 0 0 60%; /* Left section takes up 60% */
+    color: #fff; /* White text color */
+  }
+
+  .exercise-info-even {
+    background-color: #000000; /* Black background color for even sections */
+    flex: 0 0 60%; /* Left section takes up 60% */
+    color: #fff; /* White text color */
+  }
+
+  .exercise-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: yellow; /* Yellow hyperlink color */
+    text-decoration: none; /* Remove underline from hyperlinks */
+  }
+
+  .sets-reps {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .exercise-pic {
+    flex: 0 0 40%; /* Right section takes up 40% */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensure that content does not overflow */
+  }
+
+  .youtube-thumbnail {
+    width: 100%; /* Ensure the thumbnail occupies the entire space */
+    height: 100%; /* Ensure the thumbnail occupies the entire space */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    display: block; /* Ensure the anchor tag occupies the entire space */
+  }
+</style>
+</head>
+<body>
+
+<div class="title-section">
+  <div class="title">Day 1</div>
+  <div class="subtitle">Lower Body Focus</div>
+</div>
+
+<div class="exercise-section">
+  <div class="exercise-info exercise-info-odd">
+    <a href="https://www.muscleandstrength.com/exercises/barbell-hip-thrust" target="_blank" class="exercise-name">Barbell Hip Thrusts</a>
+    <p class="sets-reps">4 sets x 10 reps</p>
+  </div>
+  <div class="exercise-pic">
+    <a href="https://www.youtube.com/watch?v=lAnqN0J_p5A" target="_blank" class="youtube-thumbnail" style="background-image: url('https://img.youtube.com/vi/lAnqN0J_p5A/maxresdefault.jpg');"></a>
+  </div>
+</div>
+
+<div class="exercise-section">
+  <div class="exercise-info exercise-info-even">
+    <a href="https://www.muscleandstrength.com/exercises/sumo-deadlift" target="_blank" class="exercise-name">Sumo Deadlifts</a>
+    <p class="sets-reps">4 sets x 8 reps</p>
+  </div>
+  <div class="exercise-pic">
+    <a href="https://www.youtube.com/watch?v=o4gIucBC4ls" target="_blank" class="youtube-thumbnail" style="background-image: url('https://img.youtube.com/vi/o4gIucBC4ls/maxresdefault.jpg');"></a>
+  </div>
+</div>
+
+<div class="exercise-section">
+  <div class="exercise-info exercise-info-odd">
+    <a href="https://www.muscleandstrength.com/exercises/dumbbell-walking-lunge.html" target="_blank" class="exercise-name">Walking Lunges with Dumbbells</a>
+    <p class="sets-reps">3 sets x 12 steps each leg</p>
+  </div>
+  <div class="exercise-pic">
+    <a href="https://www.youtube.com/watch?v=uRSsOoZG9z8" target="_blank" class="youtube-thumbnail" style="background-image: url('https://img.youtube.com/vi/uRSsOoZG9z8/maxresdefault.jpg');"></a>
+  </div>
+</div>
+
+<div class="exercise-section">
+  <div class="exercise-info exercise-info-even">
+    <a href="https://www.muscleandstrength.com/exercises/45-degree-leg-press.html" target="_blank" class="exercise-name">Leg Press</a>
+    <p class="sets-reps">3 sets x 12 reps</p>
+  </div>
+  <div class="exercise-pic">
+    <a href="https://www.youtube.com/watch?v=sEM_zo9w2ss" target="_blank" class="youtube-thumbnail" style="background-image: url('https://i.ytimg.com/vi_webp/sEM_zo9w2ss/hqdefault.webp');"></a>
+  </div>
+</div>
+<div class="exercise-section">
+  <div class="exercise-info exercise-info-odd">
+    <a href="https://www.youtube.com/watch?v=OkcryKUZTZs" target="_blank" class="exercise-name">Cable Pull-throughs</a>
+    <p class="sets-reps">3 sets x 12 reps</p>
+  </div>
+  <div class="exercise-pic">
+    <a href="https://www.youtube.com/watch?v=OkcryKUZTZs" target="_blank" class="youtube-thumbnail" style="background-image: url('https://img.youtube.com/vi/OkcryKUZTZs/maxresdefault.jpg');"></a>
+  </div>
+</div>
+
+<div class="exercise-section">
+  <div class="exercise-info exercise-info-even">
+    <a href="https://www.muscleandstrength.com/exercises/seated-dumbbell-calf-raise.html" target="_blank" class="exercise-name">Seated Dumbbell Calf Raises</a>
+    <p class="sets-reps">3 sets x 15 reps</p>
+  </div>
+  <div class="exercise-pic">
+    <a href="https://www.muscleandstrength.com/exercises/seated-dumbbell-calf-raise.html" target="_blank" class="youtube-thumbnail" style="background-image: url('https://i.vimeocdn.com/video/1741827704-85127d1f3ff4c293a94415ea828a04162cdfba768a59c62a33c844378dd522a6-d?mw=1800&mh=1014&q=70');"></a>
+  </div>
+</div>
+
+</body>
+</html>
