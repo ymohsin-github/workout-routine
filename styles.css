@@ -1,0 +1,132 @@
+.index-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.index-page .title-section {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.index-page .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.index-page .subtitle {
+    font-size: 18px;
+}
+
+.index-page .exercise-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.index-page .exercise-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.index-page .sets-reps {
+    font-size: 16px;
+    color: #666;
+    margin-left: 20px;
+}
+
+.index-page .exercise-section:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+.days-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.days-page .title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.days-page .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.days-page .subtitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.days-page .exercise-section {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 2px solid #fff;
+    padding: 0;
+    text-align: center;
+    margin-bottom: -2px;
+}
+
+.days-page .exercise-info {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.days-page .exercise-info-odd {
+    background-color: #ff0000;
+    flex: 0 0 60%;
+    color: #fff;
+}
+
+.days-page .exercise-info-even {
+    background-color: #000000;
+    flex: 0 0 60%;
+    color: #fff;
+}
+
+.days-page .exercise-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.days-page .sets-reps {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.days-page .exercise-pic {
+    flex: 0 0 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.days-page .youtube-thumbnail {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    display: block;
+}
